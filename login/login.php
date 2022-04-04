@@ -17,7 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <div class="center">
-    <p>Welcome to SpaceMan!</p>
+    <p>SpaceMan! Login</p>
 </div>
 
 <div class="ship_picture">

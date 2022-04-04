@@ -14,6 +14,7 @@ if($result){
 	$user = $stmtselect->fetch(PDO::FETCH_ASSOC);
 	if($stmtselect->rowCount() > 0){
 		$_SESSION['userlogin'] = $user;
+		$_SESSION['username'] = $username;
 		echo '1';
 	}else{
 		echo 'There no user for that combo';		
